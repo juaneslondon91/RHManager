@@ -1,7 +1,14 @@
 package modelo;
 
+/**
+ * Clase que representa la información de un empleado
+ * del sistema RHManager.
+ */
+
 public class Empleado {
 
+
+ // Atributos del empleado
     private int id;
     private String nombre;
     private String documento;
@@ -10,9 +17,18 @@ public class Empleado {
     private int idCargo;
     private boolean estado;
 
+
+    // constructor
+
+    // getters
+
+    // setters
+
+    // Constructor vacío
     public Empleado() {
     }
 
+    // Constructor con parámetros
     public Empleado(int id, String nombre, String documento,
                      double salario, int idArea,
                      int idCargo, boolean estado) {
@@ -26,6 +42,7 @@ public class Empleado {
         this.estado = estado;
     }
 
+    // Métodos Get y Set
     public int getId() {
         return id;
     }
